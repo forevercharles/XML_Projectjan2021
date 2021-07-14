@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="smoke">
+	<test name="LoginTest">
+
+		<parameter name="username" value="demo@techfios.com" />
+		<parameter name="password" value="abc123" />
+
+	
+
+		<!-- this is a classified path -->
+		<!-- the parameters values will be passed inside this LoginTest class -->
+		<classes>
+			<class name="test.LoginTest"></class>
+
+			
+
+		</classes>
+
+	</test>
+
+</suite>

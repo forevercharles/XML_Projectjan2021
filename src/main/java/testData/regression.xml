@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regression">
+	<test name="LoginTest">
+	
+		<parameter name="username" value="demo@techfios.com" />
+		<parameter name="password" value="abc123" />
+		
+		<parameter name="FullName" value="Microsoft Excel" />
+		<parameter name="CompanyName" value="Techfios" />
+		<parameter name="Email" value="mmsexcell@gmail.com" />
+		<parameter name="Phone" value="a2315468" />
+		<parameter name="Address" value="Techfios Building" />
+		<parameter name="City" value="Carrolton" />
+		<parameter name="State" value="TX" />
+		<parameter name="Zip" value="a786758" />
+		<parameter name="Country" value="United Kingdom" />
+
+<!-- this is a classified path -->
+<!-- the parameters values will be passed inside this LoginTest class -->
+		<classes>
+		   <!--<class name="test.LoginTest"></class>  -->
+			
+			<class name="test.AddCustomerTest"/>
+
+		</classes>
+
+	</test>
+
+</suite>
